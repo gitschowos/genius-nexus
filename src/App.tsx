@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import NotificationTest from './playground/NotificationTest';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <h1>Welcome to Genius Nexus!</h1>
         <p>At first I am playing around a bit with the PWA stuff :)</p>
       </header>
+      <NotificationTest />
     </div>
   );
 }
